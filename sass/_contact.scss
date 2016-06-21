@@ -1,0 +1,202 @@
+.contact-page {
+	
+	.contact-section {
+		padding-bottom: 30px;
+		overflow: hidden;
+
+		.contact-title {
+			width: 100;
+			margin: 0 0 30px 0;
+			color: #262b86;
+			font-family: 'KelsonSans', sans-serif;
+			font-size: 40px;
+			font-weight: 700;
+			line-height: 62px;
+			text-transform: uppercase;
+		}
+
+		.contact-list {
+			max-width: 235px;
+			float: left;
+			li {
+				display: block;
+				width: 100%;
+				h2 {
+					margin: 0 0 15px;
+					font-weight: 400;
+					line-height: 30px;
+					color: #262b86;
+					font-size: 25px;
+					text-transform: uppercase;
+
+				}
+				span {
+					display: block;
+					margin: 0 0 37px 0;
+					font-weight: 400;
+					color: #6e6e6e;
+					font-size: 18px;
+				}
+			}
+		}
+
+		.map-container {
+			clear: both;
+			width: auto;
+			max-width: 440px;
+			overflow: hidden;
+
+			iframe {
+				width: 100%;
+			}
+		}
+
+		.feedback-form {
+			width: 100%;
+			margin: 75px 0 0 0;
+			.feedback-title {
+				width: 100%;
+				margin: 0 0 43px 0;
+				color: #262b86;
+				font-family: 'KelsonSans', sans-serif;
+				// font-size: 40px;
+				font-size: 36px;
+				font-weight: 700;
+				// line-height: 62px;
+				line-height: 36px;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	#contactForm {
+		max-width: 714px;
+
+		input {
+			display: inline-block;
+			background-color: none;
+		}
+
+		::-webkit-input-placeholder {
+		   font-size: 16px;
+		   font-weight: 400;
+		   line-height: 28px;
+		   color: #262b86;;
+		}
+
+		:-moz-placeholder { /* Firefox 18- */
+		   font-size: 16px;
+		   font-weight: 400;
+		   line-height: 28px;
+		   color: #262b86;;
+		}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		   font-size: 16px;
+		   font-weight: 400;
+		   line-height: 28px;
+		   color: #262b86;;
+		}
+
+		:-ms-input-placeholder {  
+		   font-size: 16px;
+		   font-weight: 400;
+		   line-height: 28px;
+		   color: #262b86;;
+		}
+
+		.name-field,
+		.phone-field,
+		.email-field {
+			max-width: 350px;
+			width: 100%;
+			height: 37px;
+			margin: 14px 0;
+			padding: 5px;
+			color: #262b86;
+			border: none;
+			border: 1.49px solid #262b86;
+		}
+		.ui.selection.dropdown {
+		    cursor: pointer;
+		    word-wrap: break-word;
+		    line-height: 1em;
+		    white-space: normal;
+		    outline: 0;
+		    -webkit-transform: rotateZ(0deg);
+		    -ms-transform: rotate(0deg);
+		    transform: rotateZ(0deg);
+		    min-width: 14em;	
+		    min-height: 2.7142em;
+		    background: #FFFFFF;
+		    display: inline-block;
+		    padding: 0.78571429em 2.6em 0.78571429em 1em;
+		    color: rgba(0, 0, 0, 0.87);
+		    box-shadow: none;
+		    border: 1px solid rgba(34, 36, 38, 0.15);
+		    border-radius: 0;
+		    -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
+		    transition: box-shadow 0.1s ease, width 0.1s ease;
+		    max-width: 350px;
+		    width: 100%;
+		    background-color: none;
+		    border-color: #262b86;
+		    color: #262b86;
+		}
+		.ui.dropdown .menu > .item:hover {
+		    background: none;
+		    color: #e60012 !important;
+		    z-index: 13;
+	    }
+	    .ui.selection.active.dropdown:hover .menu {
+		    width: 284px;
+		    height: 123px;
+		    background-color: none;
+		    border: 1.49px solid #262b86;
+		    color: #fff;
+		}
+		.ui.dropdown > .default.text, .ui.default.dropdown > .text {
+		    color: #262b86;
+		}
+		.ui.selection.dropdown .menu > .item {
+		    border-top: 1px solid #262b86;
+		    padding: 0.71428571rem 1.14285714rem !important;
+		    white-space: normal;
+		    word-wrap: normal;
+		    color: #262b86;
+		}
+		.ui.selection.visible.dropdown > .text:not(.default) {
+		    font-weight: normal;
+		    color: #262b86;
+		}
+		.ui.dropdown.selected, .ui.dropdown .menu .selected.item {
+		    background: none;
+		    color: #e60012 !important;
+		    font-weight: normal;
+		}
+		.message {
+			width: 100%;
+			height: 172px;
+			margin: 13px 0 13px;
+		    padding: 13px 0 0 13px;
+		    color: #262b86;
+			border: 1.49px solid #262b86;
+			background-color: none;
+			resize: none;
+		}
+		.submit-button {
+			float: right;
+			width: 99px;
+			height: 42px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 700;
+			text-align: center;
+			text-transform: uppercase;
+			line-height: 42px;
+			border: none;
+			background-color: #e60012;
+			cursor: pointer;
+		}
+	}
+}

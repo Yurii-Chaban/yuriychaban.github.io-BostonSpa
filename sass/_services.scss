@@ -1,0 +1,220 @@
+.left-sidebar {
+	// float: left;
+	max-width: 237px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	text-align: center;
+
+	.sidebar-title {
+		margin: 36px auto 10px;
+		color: #262b86;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 62px;
+		text-transform: uppercase;
+	}
+
+	.sidebar-menu {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #f3f3f5;
+		border: 2.07px solid #fff;
+
+		li {
+			display: block;
+			margin: 16px auto;
+			text-align: left;
+			color: #262b86;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 30px;
+			list-style-type: circle;
+
+			a {
+				position: relative;
+				padding-left: 46px;
+				color: #262b86;
+				text-decoration: none;
+				@include transition;
+				
+				&:before {
+					position: absolute;
+					top: 50%;
+					left: 10%;
+					transform: translateY(-50%);
+					content: " ";
+					width: 8px;
+					height: 8px;
+					background-color: #262b86;
+					border-radius: 100%;
+				}
+
+				&:hover {
+					color: #e60012;
+						&:before {
+						background-color: #e60012;
+					}
+				}
+			}
+		}
+	}
+	.testimonials-title {
+	    margin: 15px auto 10px;
+		text-align: center;
+		color: #262b86;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 62px;
+		text-transform: uppercase;
+	}
+	.sidebar-testimonials {
+		width: 100%;
+		text-align: center;
+
+		li {
+			display: block;
+			width: 100%;
+			margin: 0 auto 16px;
+			padding: 15px;
+			background-color: #f3f3f5;
+			border: 2.07px solid #fff;
+
+			.user-name {
+				display: block;
+				margin: 28px auto 17px;
+				text-align: left;
+				color: #262b86;
+				font-size: 21px;
+				font-weight: 400;
+				line-height: 18px;
+				text-transform: uppercase;
+			}
+			.user-date {
+				display: block;
+				margin: 0 0 22px 0;
+				color: #e60012;
+				text-align: left;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 18px;
+			}
+			.user-about {
+				text-align: left;
+				font-weight: 400;
+				line-height: 25px;
+				color: #515151;
+				font-size: 18px;
+			}
+		}
+	}
+}
+.services-section {
+	padding: 0 15px;
+	clear: both;
+	overflow: hidden;
+
+	.services-title {
+		margin: 0 auto 13px;
+		color: #262b86;
+		font-family: 'KelsonSans', sans-serif;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 62px;
+		text-transform: uppercase;
+	}
+
+	.services-gallery  {
+	    margin: 0 auto 51px;
+	    text-align: center;
+	}
+	.services-gallery li {
+	    display: inline-block;
+	    margin: 15px;
+	    padding: 0;
+	    background: #fff;
+	}
+	.services-gallery li img {
+	    width: 100%;
+	    height: auto;
+	}
+	.services-gallery .item {
+	    display: block;
+        max-width: 346px;
+		max-height: 338px;
+	    position: relative;
+	    overflow: hidden;
+	    background: rgba(23,28,97, 0.9);
+	}
+	.item:hover .title-images h3 {
+		display: none;
+	}
+	.services-gallery .hover-effect {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+      padding: 15px 25px 33px 21px;
+	  background: black;
+	  background-color: rgba(230,0,18, 0.85);
+	  color: #fff;
+	  opacity: 0;
+	  -webkit-transition: all 0.6s ease;
+	  -moz-transition:    all 0.6s ease;
+	  -o-transition:      all 0.6s ease;
+	}
+	.services-gallery .hover-effect .hover-description {
+		display: block;
+		color: #fff;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 25px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.services-gallery .hover-effect h3 {
+		margin-bottom: 27px;
+	}
+	.services-gallery .hover-effect h3 a {
+		color: #fff;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 33px;
+		text-transform: uppercase;
+	}
+	.services-gallery :hover .hover-effect  {
+	  opacity: 1;
+	}
+	.hover-effect:before,
+	.hover-effect .hover-effect {
+	  bottom: 0; left: 0;
+	}
+	.hover-effect:hover .hover-effect  {
+	 left: 0;
+	}
+	.title-images {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	    width: 100%;
+	    height: auto;
+		background-color: rgba(23,28,97, 0.6);
+	}
+	.title-images h3 {
+	    float: left;
+	    color: #fff;
+	    margin: 18px 0 16px 20px;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 33px;
+		text-transform: uppercase;
+	}
+	.title-images span {
+	    float: right;
+	    margin: 20px 10px;
+	    color: #aba7ab;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+}

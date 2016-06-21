@@ -1,0 +1,122 @@
+.services-page {
+	width: auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+	.services-content {
+		width: auto;
+		overflow: hidden;
+		margin: 8px 0 0 0;
+		padding-bottom: 40px;
+
+		.services-title {
+			margin: 0 0 21px 0;
+			color: #262b86;
+			font-family: 'KelsonSans', sans-serif;
+			font-size: 40px;
+			font-weight: 700;
+			line-height: 62px;
+			text-transform: uppercase;
+		}
+		.services-article-list {
+			li {
+				width: 100%;
+				margin-bottom: 30px;
+
+				img {
+					margin: 0 0 31px 0;
+				}
+				.small-paragraph,
+				.big-paragraph {
+					color: #6e6e6e;
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 25px;
+				}
+				.big-paragraph {
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+	/* Tiny Carousel */
+	#slider1 {
+		    max-width: 712px;
+			    height: 1%;
+			    margin: 0;
+			    overflow: hidden;
+			    position: relative;
+			    float: right;
+			    padding: 0;
+			    right: 0;
+	    .viewport {
+	    	width: 712px;
+			height: 198px;
+		    overflow: hidden;
+		    position: relative;
+		}
+		.buttons {
+		    // border-radius: 35px;
+		    display: block;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 47px;
+		    height: 198px;
+		    color: #000;
+		    font-weight: lighter;
+		    text-align: center;
+		    line-height: 0;
+		    text-decoration: none;
+		    font-size: 50px;
+		    background:  rgba(38,43,134,0.8);
+		    z-index: 9;
+		    &:hover {
+			    color: #000;
+			    background:  rgba(38,43,134,0.8);;
+			}
+
+			img {
+				position: absolute;
+			    top: 50%;
+			    transform: translate(-50%, -50%);
+			    left: 50%;
+			    border: none;
+			    line-height: 198px;
+			    vertical-align: middle;
+			}
+		}
+		.next {
+		    right: 0;
+		    left: auto;
+		    top: 0;
+		}
+		.disable {
+		    visibility: hidden;
+		}
+		.overview {
+		    list-style: none;
+		    position: absolute;
+		    padding: 0;
+		    margin: 0;
+		    width: auto;
+		    left: 0;
+		    top: 0;
+		    height: 198px;
+			overflow: hidden;
+		    li {
+			    box-sizing: border-box;
+			    float: left;
+			    margin: 0 11px;
+			    padding: 0 1px;
+			    height: auto;
+			    width: auto;
+			    &:first-child {
+			    	margin-left: 0;
+			    }
+			    &:last-child {
+			    	margin-right: 0;
+			    }
+			 }
+		}
+	}
+}
