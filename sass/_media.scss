@@ -4,536 +4,191 @@
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-@mixin section-title {
-	position: relative;
-	margin: 0 auto;
-	padding: 0 15px;
-	text-align: center;
-	color: #262b86;
-	font-family: 'KelsonSans', sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 35px;
-	text-transform: uppercase;
-
-	&:before,
-	&:after {
-		display: block;
-		position: absolute;
-		top: 45%;
-		content: '';
-		width: 35% !important;
-		height: 5px;
-		background-color: #e60012;
-	}
-	&:before {
-		left: 0;
-	}
-	&:after {
-		right: 0;
-	}
-}
-
-@media (min-width: 480px) {
-	.testimonials-list {
-		li {
-			margin: 10px;
-		}
-	}
-	// blog-more
-	.blog-more-page {
-		.blog-more-content {
-			.float-img {
-				float: left;
-				margin: 0 32px 31px 0;
-			}
-		}
-	}
-	.blog-section {
-		.section-more-title {
-			@include section-title;
-			font-size: 40px !important;
-			line-height: 77px !important;
-
-			&:before,
-			&:after {
-				width: 15% !important;
-			}
-		}
-	}
-	// blog-more
-	.school-more-page {
-		.school-more-content {
-			.float-img {
-				float: left;
-				margin: 0 32px 31px 0;
-			}
-		}
-	}
-}
 @media (min-width: 768px) {
-	// main-page
-	.offer-item {
-		li {
-			margin: 20px !important;
-		}
-	} 
-	.testimonials-list {
-		li {
-			margin: 0 42px 0 0;
-		}
-	}
-	 .footer-contenet-list {
-	 	display: flex;
-		flex-direction: row !important;
-		&>li {
-			float: left;
-			.social-icon {
-				width: auto;
-    			margin: 10% 25% 10% 30% !important;
-				li {
-					margin: 16px 0 !important;
+	/*---------------------------------------*/
+	/*slider*/
+	.slider {
+		.swiper-container-main {
 
-					&:first-child {
-						margin-top: 0 !important;
-					}
-				}
-			}
-		}
-		&>&:first-child {
-			width: 31% !important;
-		}
-	}
-// services page
-	.left-sidebar {
-		float: left;
-
-		.sidebar-title {
-			    margin-top: 0 !important
-		}
-	}
-	.services-section {
-		clear: none !important;
-	}
-	// testimoials page
-	.testimonials-page {
-		.testimonials-content {
-			.testimonials-list {
-			    margin: 0 auto 51px !important;
-				li {
-					margin: 35px 0 !important;
-
-					&:first-child {
-						margin-top: 0 !important;
-					}
-
-					img {
-						float: left;
-						margin-right: 31px;
-					}
-					.user-name {
-						margin: 0 0 17px !important;
-					}
-					.user-about {
-						overflow: hidden;
-					}
+			.swiper-slide{
+				.slide-desc {
+					    top: 15%;
+					    left: 95%;
+					    right: 0;
+					    transform: translate(-50%, -50%);
+					    position: absolute;
+					    text-align: center;
+					    width: 100%;
+					    height: 100%;
+					    display: inline-block;
+					    background: none !important;
 				}
 			}
 		}
 	}
-	// blog page
-	.blog-page {
-		.blog-content {
-			float: none !important;
-			.blog-list {
-			    margin: 0 auto 51px !important;
-				li {
-					margin: 35px 0 !important;
+	/*--------------------------------*/
+	.services {
 
-					&:first-child {
-						margin-top: 0 !important;
-					}
-
-					img {
-						float: left;
-						margin-right: 31px;
-					}
-					.article-name {
-						margin: 0 0 17px !important;
-					}
-					.article-about {
-						overflow: hidden;
-					}
-				}
-			}
-		}
-	}
-		// blog-more page
-		.blog-section {
-			.section-more-title {
-				&:before,
-				&:after {
-					width: 25% !important;
-				}
-			}
-		}
-}
-@media (min-width: 1024px) {
-	// home page
-	.dropdovn-menu,
-	.call-us-block {
-		display: none;
-	}	
-	.desctop-menu,
-	.header-info {
-		display: block !important;
-	}
-	.header-info {
-		float: right;
-		line-height: 118px;
-		font-size: 0;
-
-		* {
-			vertical-align: middle;
-		}
-
-		.fa {
-			display: inline-block;
-			width: 26px;
-			height: 26px;
-			color: #171c61;
-			font-size: 30px;
-		}
-		.phone {
-			display: inline-block;
-			margin: 0 31px 0 13px;
-			color: #171c61;
-			font-size: 30px;
-			font-weight: 400;
-			line-height: 35px;
-			text-transform: uppercase;
-		}
-		.ask-a-question {
-        	width: 153px;
-			height: 44px;
-		    padding: 10px 15px;
-			border: 1.49px solid #e60012;
-			color: #e60012;
-			font-size: 16px;
-			font-weight: 400;
-			text-align: center;
-			text-transform: uppercase;
-			@include transition;
-
-			&:hover {
-				background: #e60012;
-				color: #fff;
-			}
-        }
-	}
-	.logo {
-		float: left;
-	}
-	.desctop-menu {
-		width: 100%;
-		background-color: #e5e4e8;
-
-		.list-menu {
-			margin: 0 auto;
-			text-align: center;
-			font-size: 0;
+		.services-list {
 
 			li {
 				display: inline-block;
-				color: #2c2e65;
-				font-size: 16px;
-				font-weight: 400;
-				line-height: 16px;
-				text-transform: uppercase;
-
+				width: 45% !important;
+				height: auto;
+				padding: 20px 0;
+				overflow: hidden;
+				.img-container {
+					width: 181px;
+					height: auto;
+					overflow: hidden;
+					border-radius: 100%;
+				}
 				a {
-					display: block;
-					padding: 15px 22px;
-					color: #2c2e65;
-					line-height: inherit;
-					text-align: center;
+					color: #5786fe;
+					font-size: 25px;
+					font-weight: 400;
+					line-height: 30px;
 					@include transition;
 
 					&:hover {
-						color: #fff;
-						background-color: #e60012;
+						color: #ff5a00;
 					}
-				}
-				.active {
-			    	color: #fff;
-					background-color: #e60012;
-			    }
-			}
-		}
-	}
-	.offer-item {
-		margin: 69px auto 86px !important;
-		li {
-			margin: 10px !important;
-		}
-	}
-	.school-gallery {
-		li {
-			margin: 0 !important;
-		}
-	}
-	.testimonials-list {
-		li {
-    		margin: 0 31px 0 0 !important;
-		}
-	}
-	.blog-list {
-		li {
-			margin-right: 40px !important;
-
-			&:nth-child(even) {
-				margin-right: 0 !important;
-			}
-		}
-	}
-	.footer-contenet-list {
-		display: flex;
-		justify-content: space-around;
-	}
-	.name-field,
-	.email-field  {
-		margin-right: 16px !important;
-	}
-	.skdslider {
-		.slide-desc {
-			.content-desc {
-				left: 3% !important;
-			}
-		}
-		.slide-navs {
-			left: 3% !important;
-		}
-	}
-	// services
-	.services-gallery {
-		text-align: left !important;
-
-		.item {
-			max-width: 328px !important;
-		}
-		li {
-			margin: 0 0 15px 0!important;
-
-			&:nth-child(-2n+41) {
-				margin-right: 17px !important;
-			}
-		}
-	}
-	// contact page
-	.contact-page {
-		.contact-section {
-			.map-container {
-				clear: none !important;
-			}
-			.contact-list {
-				margin-right: 36px;
-			}
-		}
-		#contactForm {
-			.name-field,
-			.phone-field,
-			.email-field,
-			.ui.selection.dropdown {
-				max-width: 343px !important;
-			}
-		}
-	}
-	// school
-	.school-section {
-
-		.school-list {
-			.school-list-title {
-				margin: 0 0 13px 40px !important;
-			}
-		}
-	}
-	// about page 
-	.about-page {
-		.about-content {
-			.about-article-list {
-				li {
 
 					img {
-						float: left;
-						margin: 0 32px 31px 0 !important;
-					}
-					.small-paragraph,
-					.big-paragraph {
-						width: auto;
-						overflow: hidden;
-					}
-					.big-paragraph {
-						clear: both;
+						display: block;
+						max-width: 100%;
+						margin: 0 auto 36px;
+						text-align: center;
+						border-radius: 100%;
 					}
 				}
 			}
 		}
 	}
-	// services-more page
-	.services-page {
-		.services-content {
-			.services-article-list {
-				li {
-					img {
-						float: left;
-						margin: 0 32px 31px 0 !important;
-					}
-				}
-			}
-		}
-	}
-	// blog-more page
-	.blog-section {
-		.section-more-title {
-			&:before,
-			&:after {
-				width: 29% !important;
-			}
-		}
-	}
-	// school-more page 
-	.school-section {
-		.wrapper {
-			padding: 0;
-		}
-		.school-gallery {
-			li {
-				margin: 0 15px 16px 0 !important;
+	/*--------------------------*/
+	/*--------------------------*/
+	.booking-form {
+		padding: 75px 0 67px;
+		background: url('../images/booking-form-bg.png') no-repeat !important;
+    	background-size: cover !important;
+    	background-position: bottom !important;
 
-				&:nth-child(3n+3) {
-					margin-right: 0 !important;
-				}
+    	.form-title {
+    		color: white;
+    		font-family: 'SFUIDisplay', sans-serif;
+			font-size: 43px !important;
+    	}
+
+		#booking-form {
+			overflow: hidden;
+			box-sizing: border-box;
+			max-width: 594px;
+			width: 100% !important;
+			margin: 0 auto;
+			padding: 28px 60px 43px 72px;
+			text-align: center;
+			background: rgba(0,0,0, 0.74);
+			box-shadow: 0 0 5px rgba(0, 1, 1, 0.2) !important;
+			
+			.book-button {
+				float: right !important;
+				clear: both;
+			}
+			
+			.form-row-first {
+				margin-bottom: 0 !important;
+			}
+
+			.form-row-second
+			.form-row-third {
+				width: 50%;
+				margin-top: 0 !important;
+			    overflow: hidden;
+
+			}
+		    #number-hours,
+			#number-people {
+				width: 120px !important;
+			}
+			.minus,
+			.plus {
+				width: 53px !important;
+			}
+			.form-row-second {
+			    float: left;
+			}
+			.form-row-third {
+				float: right;
 			}
 		}
 	}
+	/*--------------------------*/
 }
-@media (min-width: 1200px) {
-	.skdslider {
-		.slide-desc {
-			.content-desc {
-				left: 13% !important;
-
-				h1 {
-					font-size: 42px !important;
-					line-height: 55px !important;
-				}
-				p {
-					font-size: 23px !important;
-					line-height: 40px !important;
-				}
-			}
-		}
-		.slide-navs {
-			left: 14% !important;
+@media (min-width: 1024px) {
+	.dropdovn-menu,
+	.call-us-block {
+		display: none !important;
+	}
+	// header {
+	// 	background: #ccc !important;
+	// }
+	.logo {
+		float: left;
+		max-width: 91px !important;
+		height: 114px !important;
+	}
+	.logo-sign {
+		float: left;
+	    margin: 55px 0 0 10px;
+	    color: white;
+	    font-size: 16px;
+		font-weight: 400;
+		line-height: 15px;
+	}
+	.desctop-phone {
+		float: left;
+		margin: 56px 0 0 60px;
+		color: white;
+		font-size: 25px;
+		font-weight: 700;
+		line-height: 25px;
+		img {
+			width: 25px;
+			height: 25px;
+			margin-right: 10px;
 		}
 	}
-	.offer-item {
-		li {
-			margin: 0 !important;
-			margin: 0 29px 29px 0!important;
+	.desctop-lenguage-select {
+		float: left;
+		margin: 56px 39px 0 45px;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 33px;
+		color: #fff;
+		a {
+			color: #fff;
+			@include transition;
 
-
-			&:nth-child(4n+4) {
-				margin-right: 0 !important;
-			}
-		}
-	}	
-	.school-gallery {
-		li {
-			margin: 0 !important;
-			margin: 0 0 16px 0!important;
-
-
-			&:nth-child(3n+3) {
-				margin-right: 0 !important;
-			}
-		}
-	}	
-	.section-title {
-		@include section-title;
-	}
-		.school-section {
-		
-		.section-title {
-			@include section-title;
-
-			&:before,
-			&:after {
-				width: 32% !important;
+			&:hover {
+				color: #5786fe;
 			}
 		}
 	}
-	.blog-section {
-		.section-title {
-			@include section-title;
-
-			&:before,
-			&:after {
-				width: 43% !important;
-			}
-		}
-		.blog-list {
-			li {
-				&::nth-child(n+2) {
-					margin-top: 20px;
-				}
-			}
-		}
+	.reservation-button {
+		float: left;
+		width: 140px;
+		height: 53px;
+		margin:45px 0 0;
+		color: #5786fe;
+		font-size: 22px;
+		text-align: center;
+		font-weight: 400;
+		line-height: 53px;
+		border: 0.86px solid #5786fe;
+		cursor: pointer;
+		@include transition;
 	}
-	// services
-	.services-gallery {
-		text-align: left !important;
-
-		.item {
-			max-width: 328px !important;
-		}
+	.desctop-menu {
+		display: block !important;
 	}
-	// contact page
-	.contact-page {
-		.contact-section {
-			.map-container {
-				clear: none !important;
-			}
-			.contact-list {
-				margin-right: 36px;
-
-				li {
-					span {
-						margin: 0 0 24px 0 !important;
-					}
-				}
-			}
-		}
-	}
-	// school page 
-	.school-section {
-		.school-list {
-			.school-gallery {
-			    li {
-			    	&:nth-child(odd) {
-			    		margin-right: 21px !important;
-			    	}
-		    	}
-	    	}
-		}
-	}
-	// blog-more page
-	.blog-section {
-		.section-more-title {
-			&:before,
-			&:after {
-				width: 35% !important;
-			}
-		}
-	}
-}
+} 

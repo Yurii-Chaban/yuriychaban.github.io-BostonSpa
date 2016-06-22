@@ -2,26 +2,6 @@
 
 @import "media";
 
-@import "services";
-
-@import "contact";
-
-@import "school";
-
-@import "faq";
-
-@import "testimonials";
-
-@import "blog";
-
-@import "about";
-
-@import "services-more";
-
-@import "blog-more";
-
-@import "school-more";
-
 @font-face {
   font-family: 'Corbel';
   src: url('../resorces/Corbel/Corbel-Bold.woff') format('woff'),
@@ -76,6 +56,7 @@ body {
   font-family: 'SFUIDisplay', 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  background: #000;
 }
 @mixin wideo-wrapper {
 	display: block;
@@ -121,48 +102,6 @@ body {
 			}
 		}
 	}
-}
-@mixin section-title {
-	position: relative;
-	margin: 0 auto;
-	padding: 0 15px;
-	text-align: center;
-	color: #262b86;
-	font-family: 'KelsonSans', sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 35px;
-	text-transform: uppercase;
-
-	&:before,
-	&:after {
-		display: block;
-		position: absolute;
-		top: 45%;
-		content: '';
-		width: 20%;
-		height: 5px;
-		background-color: #e60012;
-	}
-	&:before {
-		left: 0;
-	}
-	&:after {
-		right: 0;
-	}
-
-	@media (min-width: 768px) {
-		font-size: 40px;
-		font-weight: 700;
-		line-height: 77px;
-	}
-}
-@mixin read-more {
-	float: right;
-	color: #e60012;
-	font-size: 25px;
-	font-weight: 400;
-	line-height: 25px;
 }
 .wrapper {
 	max-width: 985px;
@@ -702,7 +641,7 @@ header {
 			}
 			.DateFrom {
 				display: block;
-				width: 287px;
+				width: 100%;
 				height: 48px;
 				border: none;
 				text-align: center;
@@ -778,19 +717,20 @@ footer {
 
 			li {
 				display: inline-block;
-				width: 42px;
+				width: 41px;
 				height: 40px;
 				margin: 0 15px;
 				overflow: hidden;
 
 				a {
 					display: block;
-					width: 100%;
-					height: 100%;
+					width: 41px;
+					height: 40px;
 					@include transition;
 					img {
 						max-width: 100%;
 						height: auto;
+						overflow: hidden;
 					}
 				}
 				.google {
