@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="stylesheets/semantic.css">
 	<link rel="stylesheet" href="stylesheets/dropdown.css">
 	<link rel="stylesheet" href="stylesheets/swiper.css">
+	<link rel="stylesheet" href="stylesheets/jquery-ui.css">
 	<link rel="stylesheet" href="stylesheets/main-style.css">
 </head>
 <body>
@@ -116,7 +117,7 @@
 	</header>
 	<section class="slider">
 	 <!-- Swiper -->
-	    <div class="swiper-container-main">
+	    <div class="swiper-container swiper-container-main">
 	        <div class="swiper-wrapper">
 	            <div class="swiper-slide">
 					<img src="images/slider-img-1.png" alt="slider-img-1">
@@ -207,7 +208,7 @@
 			<h2 class="welcome-title">WELCOME</h2>
 			<h3 class="welcome-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit</h3>
 			<!-- Swiper -->
-		    <div class="swiper-container-mobile">
+		    <div class="swiper-container swiper-container-mobile">
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide">
 						<img src="images/mobile-slide-1.png" alt="mobile slide"></a>
@@ -225,81 +226,68 @@
 		    </div>
 		</div>
 	</section>
+	<section class="main-map">
+		<div class="wrapper">
+			<div class="map-sign">
+				<h2 class="map-title">Call now for reservations</h2>
+				<img src="images/icon-phone.png" alt="icon phone">
+				<h3 class="map-phone">802-FIRE-ICE (347-3423)</h3>
+			</div>
+			<div class="google-maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.5990628138006!2d-71.17304118454739!3d42.244377879194786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37f965d2e9fbb%3A0x27e51e08dce9772a!2sFire+and+Ice+Spa!5e0!3m2!1suk!2s!4v1466576963919" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<section class="booking-form">
+		<div class="wrapper">
+			<h2 class="form-title">ONLINE BOOKING FORM</h2>
+			<form id="booking-form" action="#" method="post">
+				<div class="form-row form-row-first">
+					<h3>Select Date</h3>
+					<img src="images/icon-calendar.png" alt="icon calendar">
+					<input class="DateFrom">
+				</div>
+				<div class="form-row">
+					<h3>Number of Hours</h3>
+					<div class="number number-hours">
+					    <span class="minus">-</span>
+					    <input type="text" value="3 hours" id="number-hours">
+					    <span class="plus">+</span>
+					</div>
+				</div>
+				<div class="form-row">
+					<h3>Number of People</h3>
+					<div class="number number-people">
+					    <span class="minus">-</span>
+					    <input type="text" value="2 people" id="number-people">
+					    <span class="plus">+</span>
+					</div>
+				</div>
+				<input class="book-button" type="submit" name="book" value="book">
+			</form>
+		</div>
+	</section>
 	<footer>
 		<div class="wrapper">
-			<ul class="footer-contenet-list">
-				<li>
-					<ul class="footer-menu">
-		                <li>
-	                	<a href="culture_academy_home_3.html">Home</a>
-	                </li>
-	                <li>
-	                	<a href="culture_academy_about_company.html">About us</a>
-	                </li>
-	                <li>
-	                	<a href="culture_academy_services.html">Services</a>
-	                </li>
-	                <li>
-	                	<a href="culture_academy_schools.html">Schools</a>
-	            	</li>
-	            	<li>
-	                	<a href="culture_academy_faq.html">FAQ</a>
-	            	</li>
+			<div class="footer-mobile">
+				<h2 class="site-address">115 Eastern Ave<br> Dedham, MA 02026</h2>
+				<h4 class="site-phone">(617) 549-1676</h4>
+				<ul class="social-icons">
 					<li>
-	                	<a href="culture_academy_testimonials.html">Testimonials</a>
-	            	</li>
+						<a class="google" href="#"></a>
+					</li>
 					<li>
-	                	<a href="culture_academy_blog.html">Blog</a>
-	            	</li>
+						<a class="facebook" href="#"></a>
+					</li>
 					<li>
-	                	<a href="culture_academy_contact_us.html">Contact us</a>
-	            	</li>
-		            </ul>
-				</li>
-				<li>
-					<ul class="social-icon">
-						<li>
-							<a href="#">
-								<span class="fa fa-facebook"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-pinterest"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-instagram"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-google"></span>
-							</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<form method="POST" action="#" id="feedForm">
-	                    <input class="name-field" type="text" placeholder="Name..." name="name">
-	                    <input class="phone-field" type="text" placeholder="Phone..." name="phone">
-	                    <input class="email-field" type="text" placeholder="Email..." name="email">
-	                    <select class="ui dropdown">
-						  <option value="">Service...</option>
-						  <option value="long-term-study">Long term study</option>
-						  <option value="short-term-visit">Short term visit</option>
-						  <option value="college-prep">College prep</option>
-						</select>
-	                    <textarea class="message" placeholder="Message..." name="text"></textarea>
-	                    <input class="submit-button" type="submit" value="Send">
-	                </form>
-				</li>
-			</ul>
+						<a class="twitter" href="#"></a>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<div class="copyright">
 			<div class="wrapper">
-				<h1>Website development &copy; <a href="http://globalvision.name/">Global Vision</a></h1>
+				<h1>Website <a href="http://globalvision.name/">development</a> &copy; Global Vision</h1>
 			</div>
 		</div>
 	</footer>
@@ -312,6 +300,12 @@
 			  .dropdown()
 			;
 		});		
+	</script>
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		$("input.DateFrom").datepicker({
+		    minDate: 0  
+		});
 	</script>
 	<script src="js/2.1.3jquery.min.js"></script>
 	<script src="js/swiper.js"></script>
@@ -328,12 +322,31 @@
 	        nextButton: '.swiper-button-next',
 	        prevButton: '.swiper-button-prev',
 	        paginationClickable: true,
-	        spaceBetween: 20,
+	        spaceBetween: 0,
 	        centeredSlides: true,
 	        autoplay: 3500,
 	        autoplayDisableOnInteraction: false
 	    });
     </script>
+	<script src="js/jquery1.9.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+            $('.minus').click(function () {
+                var $input = $(this).parent().find('input');
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.plus').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            });
+        });
+	</script>
 	<script>
 		 $(function () {
 	        $('.hidden-menu li a').each(function () {
