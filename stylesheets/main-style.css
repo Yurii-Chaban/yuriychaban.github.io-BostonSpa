@@ -121,21 +121,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /*--------------------------*/
+  /* line 69, ../sass/_media.scss */
+  .main-map {
+    background-color: #1e1e1e;
+  }
+  /* line 71, ../sass/_media.scss */
+  .main-map .map-sign {
+    padding-top: 43px;
+    display: block !important;
+  }
+  /* line 75, ../sass/_media.scss */
+  .main-map .map-sign .map-title {
+    margin: 0 auto;
+    text-align: center;
+    color: #5786fe;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 80px;
+  }
+  /* line 83, ../sass/_media.scss */
+  .main-map .map-sign .map-contact {
+    margin: 0 auto 49px;
+    text-align: center;
+  }
+  /* line 87, ../sass/_media.scss */
+  .main-map .map-sign .map-phone {
+    display: inline-block;
+    color: #ff5a00;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+
   /*--------------------------*/
-  /* line 70, ../sass/_media.scss */
+  /* line 97, ../sass/_media.scss */
   .booking-form {
     padding: 75px 0 67px;
     background: url("../images/booking-form-bg.png") no-repeat !important;
     background-size: cover !important;
     background-position: bottom !important;
   }
-  /* line 76, ../sass/_media.scss */
+  /* line 103, ../sass/_media.scss */
   .booking-form .form-title {
     color: white;
     font-family: 'SFUIDisplay', sans-serif;
     font-size: 43px !important;
   }
-  /* line 82, ../sass/_media.scss */
+  /* line 109, ../sass/_media.scss */
   .booking-form #booking-form {
     overflow: hidden;
     box-sizing: border-box;
@@ -147,37 +179,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background: rgba(0, 0, 0, 0.74);
     box-shadow: 0 0 5px rgba(0, 1, 1, 0.2) !important;
   }
-  /* line 93, ../sass/_media.scss */
+  /* line 120, ../sass/_media.scss */
   .booking-form #booking-form .book-button {
     float: right !important;
     clear: both;
   }
-  /* line 98, ../sass/_media.scss */
+  /* line 125, ../sass/_media.scss */
   .booking-form #booking-form .form-row-first {
     margin-bottom: 0 !important;
   }
-  /* line 102, ../sass/_media.scss */
+  /* line 129, ../sass/_media.scss */
   .booking-form #booking-form .form-row-second
   .form-row-third {
     width: 50%;
     margin-top: 0 !important;
     overflow: hidden;
   }
-  /* line 109, ../sass/_media.scss */
+  /* line 136, ../sass/_media.scss */
   .booking-form #booking-form #number-hours,
   .booking-form #booking-form #number-people {
     width: 120px !important;
   }
-  /* line 113, ../sass/_media.scss */
+  /* line 140, ../sass/_media.scss */
   .booking-form #booking-form .minus,
   .booking-form #booking-form .plus {
     width: 53px !important;
   }
-  /* line 117, ../sass/_media.scss */
+  /* line 144, ../sass/_media.scss */
   .booking-form #booking-form .form-row-second {
     float: left;
   }
-  /* line 120, ../sass/_media.scss */
+  /* line 147, ../sass/_media.scss */
   .booking-form #booking-form .form-row-third {
     float: right;
   }
@@ -185,20 +217,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /*--------------------------*/
 }
 @media (min-width: 1024px) {
-  /* line 128, ../sass/_media.scss */
+  /* line 155, ../sass/_media.scss */
   .dropdovn-menu,
   .call-us-block {
     display: none !important;
   }
 
-  /* line 135, ../sass/_media.scss */
+  /* line 162, ../sass/_media.scss */
   .logo {
     float: left;
     max-width: 91px !important;
     height: 114px !important;
   }
 
-  /* line 140, ../sass/_media.scss */
+  /* line 167, ../sass/_media.scss */
   .logo-sign {
     float: left;
     margin: 55px 0 0 10px;
@@ -208,7 +240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     line-height: 15px;
   }
 
-  /* line 148, ../sass/_media.scss */
+  /* line 175, ../sass/_media.scss */
   .desctop-phone {
     float: left;
     margin: 56px 0 0 60px;
@@ -217,14 +249,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-weight: 700;
     line-height: 25px;
   }
-  /* line 155, ../sass/_media.scss */
+  /* line 182, ../sass/_media.scss */
   .desctop-phone img {
     width: 25px;
     height: 25px;
     margin-right: 10px;
   }
 
-  /* line 161, ../sass/_media.scss */
+  /* line 188, ../sass/_media.scss */
   .desctop-lenguage-select {
     float: left;
     margin: 56px 39px 0 45px;
@@ -233,7 +265,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     line-height: 33px;
     color: #fff;
   }
-  /* line 168, ../sass/_media.scss */
+  /* line 195, ../sass/_media.scss */
   .desctop-lenguage-select a {
     color: #fff;
     -webkit-transition: all .3s ease-in-out;
@@ -241,12 +273,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
-  /* line 172, ../sass/_media.scss */
+  /* line 199, ../sass/_media.scss */
   .desctop-lenguage-select a:hover {
     color: #5786fe;
   }
 
-  /* line 177, ../sass/_media.scss */
+  /* line 204, ../sass/_media.scss */
   .reservation-button {
     float: left;
     width: 140px;
@@ -265,9 +297,219 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transition: all .3s ease-in-out;
   }
 
-  /* line 191, ../sass/_media.scss */
+  /* line 218, ../sass/_media.scss */
   .desctop-menu {
     display: block !important;
+  }
+  /* line 221, ../sass/_media.scss */
+  .desctop-menu .list-menu {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 226, ../sass/_media.scss */
+  .desctop-menu .list-menu li {
+    display: inline-block;
+    margin: 10px 5px 10px 15px;
+    padding-right: 28px;
+    position: relative;
+  }
+  /* line 232, ../sass/_media.scss */
+  .desctop-menu .list-menu li:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 17px;
+    background: #fff;
+  }
+  /* line 241, ../sass/_media.scss */
+  .desctop-menu .list-menu li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  /* line 244, ../sass/_media.scss */
+  .desctop-menu .list-menu li:last-child:after {
+    content: none;
+  }
+  /* line 248, ../sass/_media.scss */
+  .desctop-menu .list-menu li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 17px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 255, ../sass/_media.scss */
+  .desctop-menu .list-menu li a:hover {
+    color: #5786fe;
+  }
+
+  /* line 264, ../sass/_media.scss */
+  .services .services-list li {
+    width: 24% !important;
+  }
+
+  /* line 270, ../sass/_media.scss */
+  .welcome .swiper-container-mobile {
+    display: none;
+  }
+  /* line 273, ../sass/_media.scss */
+  .welcome .swiper-container-desctop {
+    display: block;
+  }
+
+  /* line 278, ../sass/_media.scss */
+  footer {
+    background: #000 !important;
+  }
+  /* line 280, ../sass/_media.scss */
+  footer .footer-mobile {
+    display: none;
+  }
+  /* line 284, ../sass/_media.scss */
+  footer .footer-desctop {
+    width: 100%;
+    padding: 56px 0 20px;
+    border-bottom: 2px solid #363636;
+  }
+  /* line 289, ../sass/_media.scss */
+  footer .footer-desctop .column-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 293, ../sass/_media.scss */
+  footer .footer-desctop .column-heading li {
+    display: inline-block;
+    margin: 0;
+    font: 400 18px / 30px 'Roboto', sans-serif;
+    color: #5786fe;
+  }
+  /* line 299, ../sass/_media.scss */
+  footer .footer-desctop .column-heading li:nth-child(2) {
+    margin-left: -105px;
+  }
+  /* line 302, ../sass/_media.scss */
+  footer .footer-desctop .column-heading li:nth-child(3) {
+    margin-left: -50px;
+  }
+  /* line 305, ../sass/_media.scss */
+  footer .footer-desctop .column-heading li:nth-child(4) {
+    margin-right: 55px;
+  }
+  /* line 312, ../sass/_media.scss */
+  footer .column-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 53px;
+  }
+  /* line 320, ../sass/_media.scss */
+  footer .column-content .footer-main-menu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font: 300 18px / 30px 'Roboto', sans-serif;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 328, ../sass/_media.scss */
+  footer .column-content .footer-main-menu li a:hover {
+    color: #ff5a00;
+  }
+  /* line 336, ../sass/_media.scss */
+  footer .column-content .services-list li a {
+    color: #fff;
+    font: 300 18px / 30px 'Roboto', sans-serif;
+  }
+  /* line 343, ../sass/_media.scss */
+  footer .column-content .address-block li {
+    font: 300 18px / 30px 'Roboto', sans-serif;
+    color: #fff;
+  }
+  /* line 346, ../sass/_media.scss */
+  footer .column-content .address-block li span {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font: 700 22px / 46px 'Roboto', sans-serif;
+  }
+  /* line 352, ../sass/_media.scss */
+  footer .column-content .address-block li a {
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    font: 300 18px / 30px 'Roboto', sans-serif;
+  }
+  /* line 358, ../sass/_media.scss */
+  footer .column-content .address-block li a img {
+    float: right;
+  }
+  /* line 365, ../sass/_media.scss */
+  footer .column-content .social-icons {
+    margin: 35px auto 38px;
+    text-align: center;
+  }
+  /* line 369, ../sass/_media.scss */
+  footer .column-content .social-icons li {
+    display: inline-block;
+    width: 41px;
+    height: 40px;
+    margin: 0 15px;
+    overflow: hidden;
+  }
+  /* line 376, ../sass/_media.scss */
+  footer .column-content .social-icons li a {
+    display: block;
+    width: 41px;
+    height: 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  /* line 381, ../sass/_media.scss */
+  footer .column-content .social-icons li a img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  /* line 387, ../sass/_media.scss */
+  footer .column-content .social-icons li .google {
+    background: url("../images/google_1.png") no-repeat center;
+  }
+  /* line 389, ../sass/_media.scss */
+  footer .column-content .social-icons li .google:hover {
+    background: url("../images/google_2.png") no-repeat center;
+  }
+  /* line 393, ../sass/_media.scss */
+  footer .column-content .social-icons li .facebook {
+    background: url("../images/facebook_1.png") no-repeat center;
+  }
+  /* line 395, ../sass/_media.scss */
+  footer .column-content .social-icons li .facebook:hover {
+    background: url("../images/facebook_2.png") no-repeat center;
+  }
+  /* line 399, ../sass/_media.scss */
+  footer .column-content .social-icons li .twitter {
+    background: url("../images/twitter_1.png") no-repeat center;
+  }
+  /* line 401, ../sass/_media.scss */
+  footer .column-content .social-icons li .twitter:hover {
+    background: url("../images/twitter_2.png") no-repeat center;
+  }
+  /* line 408, ../sass/_media.scss */
+  footer .copyright {
+    border-top: none !important;
+    background: #363636 !important;
   }
 }
 @font-face {
@@ -817,38 +1059,36 @@ input:checked + #info-mobile {
   font-weight: 300;
   line-height: 22px;
 }
+/* line 541, ../sass/main-style.scss */
+.welcome .swiper-container-desctop {
+  display: none;
+}
 
 /*--------------------------*/
-/* line 544, ../sass/main-style.scss */
+/* line 547, ../sass/main-style.scss */
 .main-map .wrapper {
   padding: 0;
 }
-/* line 547, ../sass/main-style.scss */
+/* line 550, ../sass/main-style.scss */
 .main-map .map-sign {
   display: none;
 }
-/* line 550, ../sass/main-style.scss */
+/* line 553, ../sass/main-style.scss */
 .main-map .google-maps {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
+  width: 100%;
+  max-height: 386px;
 }
-/* line 556, ../sass/main-style.scss */
+/* line 557, ../sass/main-style.scss */
 .main-map .google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
 }
 
 /*--------------------------*/
-/* line 566, ../sass/main-style.scss */
+/* line 563, ../sass/main-style.scss */
 .booking-form {
   background: #000;
 }
-/* line 569, ../sass/main-style.scss */
+/* line 566, ../sass/main-style.scss */
 .booking-form .form-title {
   margin: 40px auto 0;
   text-align: center;
@@ -858,20 +1098,20 @@ input:checked + #info-mobile {
   line-height: 35px;
   font-variant: small-caps;
 }
-/* line 579, ../sass/main-style.scss */
+/* line 576, ../sass/main-style.scss */
 .booking-form #booking-form {
   max-width: 594px;
   width: 290px;
   margin: 0 auto;
   text-align: center;
 }
-/* line 585, ../sass/main-style.scss */
+/* line 582, ../sass/main-style.scss */
 .booking-form #booking-form .form-row {
   margin: 35px auto;
   box-sizing: border-box;
   overflow: hidden;
 }
-/* line 589, ../sass/main-style.scss */
+/* line 586, ../sass/main-style.scss */
 .booking-form #booking-form .form-row h3 {
   width: 100%;
   margin: 0 0 20px 15px;
@@ -882,11 +1122,11 @@ input:checked + #info-mobile {
   text-align: left;
   float: left;
 }
-/* line 599, ../sass/main-style.scss */
+/* line 596, ../sass/main-style.scss */
 .booking-form #booking-form .form-row img {
   float: right;
 }
-/* line 604, ../sass/main-style.scss */
+/* line 601, ../sass/main-style.scss */
 .booking-form #booking-form .form-row .number-hours .minus,
 .booking-form #booking-form .form-row .number-hours .plus,
 .booking-form #booking-form .form-row .number-people .minus,
@@ -904,17 +1144,17 @@ input:checked + #info-mobile {
   font-weight: 300;
   color: #fff;
 }
-/* line 619, ../sass/main-style.scss */
+/* line 616, ../sass/main-style.scss */
 .booking-form #booking-form .form-row .number-hours .minus,
 .booking-form #booking-form .form-row .number-people .minus {
   background-color: #5786fe;
 }
-/* line 622, ../sass/main-style.scss */
+/* line 619, ../sass/main-style.scss */
 .booking-form #booking-form .form-row .number-hours .plus,
 .booking-form #booking-form .form-row .number-people .plus {
   background-color: #ff5a00;
 }
-/* line 625, ../sass/main-style.scss */
+/* line 622, ../sass/main-style.scss */
 .booking-form #booking-form .form-row .number-hours #number-hours,
 .booking-form #booking-form .form-row .number-hours #number-people,
 .booking-form #booking-form .form-row .number-people #number-hours,
@@ -932,12 +1172,12 @@ input:checked + #info-mobile {
   height: 48px;
   background-color: #e0e0e0;
 }
-/* line 640, ../sass/main-style.scss */
+/* line 637, ../sass/main-style.scss */
 .booking-form #booking-form .form-row .number-hours span,
 .booking-form #booking-form .form-row .number-people span {
   cursor: pointer;
 }
-/* line 642, ../sass/main-style.scss */
+/* line 639, ../sass/main-style.scss */
 .booking-form #booking-form .form-row .DateFrom {
   display: block;
   width: 100%;
@@ -950,14 +1190,14 @@ input:checked + #info-mobile {
   line-height: 48px;
   background-color: #e0e0e0;
 }
-/* line 656, ../sass/main-style.scss */
+/* line 653, ../sass/main-style.scss */
 .booking-form #booking-form .form-row-first h3 {
   width: auto;
   display: inline-block;
   margin-top: 10px;
   text-align: left;
 }
-/* line 662, ../sass/main-style.scss */
+/* line 659, ../sass/main-style.scss */
 .booking-form #booking-form .form-row-first input {
   border: none;
   width: 100%;
@@ -969,7 +1209,7 @@ input:checked + #info-mobile {
   line-height: 22px;
   background-color: #e0e0e0;
 }
-/* line 674, ../sass/main-style.scss */
+/* line 671, ../sass/main-style.scss */
 .booking-form #booking-form .book-button {
   display: block;
   width: 119px;
@@ -987,11 +1227,11 @@ input:checked + #info-mobile {
 
 /*--------------------------*/
 /*--------------------------*/
-/* line 692, ../sass/main-style.scss */
+/* line 689, ../sass/main-style.scss */
 footer {
   background-color: #1e1e1e;
 }
-/* line 696, ../sass/main-style.scss */
+/* line 693, ../sass/main-style.scss */
 footer .footer-mobile .site-address {
   margin: 33px auto 38px;
   text-align: center;
@@ -1001,7 +1241,7 @@ footer .footer-mobile .site-address {
   font-weight: 300;
   line-height: 30px;
 }
-/* line 705, ../sass/main-style.scss */
+/* line 702, ../sass/main-style.scss */
 footer .footer-mobile .site-phone {
   margin: 0 auto;
   text-align: center;
@@ -1011,12 +1251,12 @@ footer .footer-mobile .site-phone {
   font-weight: 700;
   line-height: 46px;
 }
-/* line 714, ../sass/main-style.scss */
+/* line 711, ../sass/main-style.scss */
 footer .footer-mobile .social-icons {
   margin: 35px auto 38px;
   text-align: center;
 }
-/* line 718, ../sass/main-style.scss */
+/* line 715, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li {
   display: inline-block;
   width: 41px;
@@ -1024,7 +1264,7 @@ footer .footer-mobile .social-icons li {
   margin: 0 15px;
   overflow: hidden;
 }
-/* line 725, ../sass/main-style.scss */
+/* line 722, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li a {
   display: block;
   width: 41px;
@@ -1034,41 +1274,41 @@ footer .footer-mobile .social-icons li a {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 730, ../sass/main-style.scss */
+/* line 727, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li a img {
   max-width: 100%;
   height: auto;
   overflow: hidden;
 }
-/* line 736, ../sass/main-style.scss */
+/* line 733, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li .google {
   background: url("../images/google_1.png") no-repeat center;
 }
-/* line 738, ../sass/main-style.scss */
+/* line 735, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li .google:hover {
   background: url("../images/google_2.png") no-repeat center;
 }
-/* line 742, ../sass/main-style.scss */
+/* line 739, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li .facebook {
   background: url("../images/facebook_1.png") no-repeat center;
 }
-/* line 744, ../sass/main-style.scss */
+/* line 741, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li .facebook:hover {
   background: url("../images/facebook_2.png") no-repeat center;
 }
-/* line 748, ../sass/main-style.scss */
+/* line 745, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li .twitter {
   background: url("../images/twitter_1.png") no-repeat center;
 }
-/* line 750, ../sass/main-style.scss */
+/* line 747, ../sass/main-style.scss */
 footer .footer-mobile .social-icons li .twitter:hover {
   background: url("../images/twitter_2.png") no-repeat center;
 }
-/* line 758, ../sass/main-style.scss */
+/* line 755, ../sass/main-style.scss */
 footer .copyright {
   border-top: 2px solid #363636;
 }
-/* line 762, ../sass/main-style.scss */
+/* line 759, ../sass/main-style.scss */
 footer .copyright h1 {
   margin: 18px auto 15px;
   text-align: center;
@@ -1078,7 +1318,7 @@ footer .copyright h1 {
   font-weight: 400;
   line-height: 22px;
 }
-/* line 771, ../sass/main-style.scss */
+/* line 768, ../sass/main-style.scss */
 footer .copyright h1 a {
   color: #fff;
   text-decoration: none;
@@ -1087,7 +1327,7 @@ footer .copyright h1 a {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 776, ../sass/main-style.scss */
+/* line 773, ../sass/main-style.scss */
 footer .copyright h1 a:hover {
   text-decoration: underline;
 }
