@@ -4,6 +4,11 @@
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+@media (min-width: 480px) {
+	.box{
+		transform: translateX(-62%) !important;
+	}
+}
 @media (min-width: 768px) {
 	/*---------------------------------------*/
 	/*slider*/
@@ -150,8 +155,41 @@
 		}
 	}
 	/*--------------------------*/
+	.content-page {
+		.main-content {
+			.blog-list {
+				li {
+					margin: 30px 4px !important;
+				}
+			}
+		}
+	}
+
+	.box{
+		left: 60% !important;
+		transform: none !important;
+	}
 }
 @media (min-width: 1024px) {
+
+	.sidebar-list {
+		display: block!important;
+	}
+
+	.main-content {
+		width: 80% !important;
+		text-align: left !important;
+	}
+
+	.footer-desctop {
+		display: block !important;
+	}
+	.column-content {
+		display: flex !important;
+		flex-direction: row !important;
+		justify-content: space-between !important;
+	}
+
 	.dropdovn-menu,
 	.call-us-block {
 		display: none !important;
@@ -165,6 +203,7 @@
 		height: 114px !important;
 	}
 	.logo-sign {
+		display: inline-block !important;
 		float: left;
 	    margin: 55px 0 0 10px;
 	    color: white;
@@ -173,6 +212,7 @@
 		line-height: 15px;
 	}
 	.desctop-phone {
+		display: inline-block !important;
 		float: left;
 		margin: 56px 0 0 60px;
 		color: white;
@@ -186,6 +226,7 @@
 		}
 	}
 	.desctop-lenguage-select {
+		display: inline-block !important;
 		float: left;
 		margin: 56px 39px 0 45px;
 		font-size: 22px;
@@ -202,6 +243,7 @@
 		}
 	}
 	.reservation-button {
+		display: inline-block !important;
 		float: left;
 		width: 140px;
 		height: 53px;
@@ -224,7 +266,7 @@
 			margin: 0 auto;
 
 			li {
-				display: inline-block;
+				display: inline-block !important;
 				margin: 10px 5px 10px 15px;
 				padding-right: 28px;
 				position: relative;
@@ -253,6 +295,9 @@
 					@include transition;
 
 					&:hover {
+						color: #5786fe;
+					}
+					.list-active {
 						color: #5786fe;
 					}
 				}
@@ -326,6 +371,9 @@
 						@include transition;
 
 						&:hover {
+							color: #ff5a00;
+						}
+						.active-footer {
 							color: #ff5a00;
 						}
 				    }
@@ -410,4 +458,34 @@
 			background: #363636 !important;
 		}
 	}	
+	.content-page {
+		.main-content {
+			.blog-list {
+				li {
+					margin: 30px 1px !important;
+				}
+			}
+		}
+	}
 } 
+@media (min-width: 1200px) {
+	.content-page {
+		.main-content {
+			.blog-list {
+				li {
+					width: 30% !important;
+					margin: 30px 16px !important;
+					
+					&:first-child,
+					&:nth-child(4n+4)  {
+						margin-left: 0 !important;
+					}
+					
+					&:nth-child(3n+3) {
+						margin-right: 0 !important;
+					}
+				}
+			}
+		}
+	}
+}
