@@ -567,18 +567,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .content-page .main-content .blog-list li {
     margin: 30px 1px !important;
   }
+
+  /* line 470, ../sass/_media.scss */
+  .container {
+    text-align: left !important;
+  }
+
+  /* line 473, ../sass/_media.scss */
+  .lightBox {
+    margin: 5px 3px !important;
+  }
 }
 @media (min-width: 1200px) {
-  /* line 475, ../sass/_media.scss */
+  /* line 481, ../sass/_media.scss */
   .content-page .main-content .blog-list li {
     width: 30% !important;
     margin: 30px 16px !important;
   }
-  /* line 479, ../sass/_media.scss */
+  /* line 485, ../sass/_media.scss */
   .content-page .main-content .blog-list li:first-child, .content-page .main-content .blog-list li:nth-child(4n+4) {
     margin-left: 0 !important;
   }
-  /* line 484, ../sass/_media.scss */
+  /* line 490, ../sass/_media.scss */
   .content-page .main-content .blog-list li:nth-child(3n+3) {
     margin-right: 0 !important;
   }
@@ -1553,7 +1563,7 @@ footer .copyright h1 a:hover {
 }
 /* line 913, ../sass/main-style.scss */
 .content-page .container {
-  margin: 10px auto;
+  margin: 10px auto 42px;
   width: 100%;
   text-align: center;
 }
