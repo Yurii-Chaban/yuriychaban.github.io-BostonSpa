@@ -1046,6 +1046,21 @@ footer {
 		}
 	}
 /*--------------------------------------*/
+/*--------------------------------------*/
+	.about-content {
+
+		.page-title {
+			@include page-title;
+		}
+
+		.about-text {
+			margin: 0 0 20px 0;
+			text-align: left;
+			color: white;
+			font: 300 18px / 22px 'Roboto', sans-serif;
+		}
+	}
+/*--------------------------------------*/
 	}
 	/*--------------------------------------*/
 	.container{
