@@ -360,7 +360,7 @@ header {
     }
 
     img {
-		width: 100%;
+		width: auto;
     	height: 100%;
     }
     .slide-desc {
@@ -492,7 +492,7 @@ header {
 
 .swiper-container {
         width: 100%;
-        height: 100%;
+    	height: 450px;
     }
     .swiper-slide {
         text-align: center;
