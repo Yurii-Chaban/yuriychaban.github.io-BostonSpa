@@ -371,15 +371,6 @@
 		</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
-	<script src="js/semantic.js"></script>
-	<script src="js/dropdown.js"></script>
-	<script>
-		$(document).ready(function($) {
-			$('.ui.dropdown')
-			  .dropdown()
-			;
-		});		
-	</script>
 	<script src="js/jquery-ui.js"></script>
 	<script>
 		$("input.DateFrom").datepicker({
@@ -417,7 +408,6 @@
 	        autoplayDisableOnInteraction: false
 	    });
     </script>
-	<script src="js/lightbox.js"></script>
 	<script src="js/jquery1.9.1.min.js"></script>
 	<script>
 		$(document).ready(function() {
@@ -469,18 +459,6 @@
 	            var result = location.match(link);
 	            if(result) {
 	            $(this).addClass('active-footer');
-	            }
-	        });
-	    });
-	</script>
-	<script>
-		$(function () {
-	        $('.page-pagination li a').each(function () {
-	            var location = window.location.href;
-	            var link = this.href;
-	            var result = location.match(link);
-	            if(result) {
-	            $(this).addClass('pagination-item');
 	            }
 	        });
 	    });
