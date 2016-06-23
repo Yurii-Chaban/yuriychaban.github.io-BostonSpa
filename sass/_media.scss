@@ -501,6 +501,18 @@
 			}
 		}
 		/*--------------------------------------*/
+		/*--------------------------------------*/
+		.services-more-content {
+
+			.swiper-container-mobile {
+				display: none !important;
+			}
+
+			.swiper-container-desctop {
+				display: block !important;
+			}
+		}
+		/*--------------------------------------*/
 		.blog-more-content {
 
 			.swiper-container-mobile {
