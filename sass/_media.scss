@@ -169,6 +169,28 @@
 		left: 60% !important;
 		transform: none !important;
 	}
+
+	/*----------contact us page-------------*/
+	.contact-us-content {
+
+		#feedback-contact-form {
+
+			label {
+				float: left;
+				display: block;
+				width: 32% !important;
+				margin: 15px 0;
+				text-align: left;
+			}
+			label[for="email"] {
+				margin: 15px 14px !important;
+			}
+			label[for="message"] {
+				width: 100% !important;
+			}
+		}
+	}
+	/*--------------------------------------*/
 }
 @media (min-width: 1024px) {
 

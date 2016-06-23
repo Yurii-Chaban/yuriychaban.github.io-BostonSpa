@@ -1272,5 +1272,123 @@ footer {
 			}
 		}
 	}
+
+	/*----------contact us page-------------*/
+	.contact-us-content {
+		.page-title {
+			@include page-title;
+		}
+
+		.contact-address-list {
+			width: 100%;
+			margin: 28px auto;
+			text-align: center;
+
+			li {
+				width: 100%;
+				margin: 32px auto 29px;
+				text-align: left;
+
+				.title {
+					display: inline-block;
+					margin-right: 17px;
+					color: #5786fe;
+					font-size: 24px;
+					font-weight: 700;
+					line-height: 37px;
+					text-transform: uppercase;
+				}
+				.info {
+					color: white;
+					font: 300 18px / 30px 'Roboto', sans-serif;
+				}
+			}
+		}		
+
+		#feedback-contact-form {
+			width: 100%;
+			box-sizing: border-box;
+			overflow: hidden;
+			#client-mame,
+			#email,
+			#phone,
+			.feedback-form {
+				display: block;
+			}
+			label {
+				display: block;
+				width: 100%;
+				margin: 15px 0;
+				text-align: left;
+				
+				span {
+					display: block;
+					color: #fff;
+					margin: 0 0 11px 12px;
+					font-size: 22px;
+					font-weight: 300;
+					line-height: 29px;
+				}
+			}
+			#client-mame,
+			#email,
+			#phone {
+				width: 100%;
+				height: 37px;
+				padding-left: 10px;
+				border: none;
+				background-color: #e0e0e0;
+				color: black;
+			    font-size: 22px;
+			    font-weight: 300;
+			    line-height: 48px;
+			}
+			#message {
+				width: 100%;
+				height: 135px;
+				padding: 10px 0 0 10px;
+				color: black;
+			    font-size: 22px;
+			    font-weight: 300;
+			    line-height: 48px;
+				background-color: #e0e0e0;
+				resize: none;
+			}
+			.feedback-button {
+				width: 119px;
+				height: 48px;
+				margin: 24px 0 36px;
+				background-color: #ff5a00;
+				display: block;
+				clear: both;
+				float: right;
+				border: none;
+				color: white;
+				font-size: 25px;
+				font-weight: 700;
+				text-align: center;
+				line-height: 48px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.google-maps {
+		max-width: 769px;
+		max-height: 386px;
+	    position: relative;
+		padding-bottom: 65.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+
+	    iframe {
+		    position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	/*--------------------------------------*/
 }
 /*---------------------------------------------------------------------------------*/
