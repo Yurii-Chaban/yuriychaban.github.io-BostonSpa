@@ -1492,6 +1492,8 @@ footer .copyright h1 a:hover {
   text-align: center;
   /*--------------------------------------*/
   /*--------------------------------------*/
+  /*--------------------------------------*/
+  /*--------------------------------------*/
 }
 /* line 856, ../sass/main-style.scss */
 .content-page .main-content .blog-content {
@@ -1641,37 +1643,115 @@ footer .copyright h1 a:hover {
 .content-page .main-content .news-content .news-list li .img-overflow .read-more:hover {
   color: #f65701;
 }
-/* line 983, ../sass/main-style.scss */
+/* line 981, ../sass/main-style.scss */
+.content-page .main-content .reviews-content {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 987, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .page-title {
+  display: block;
+  margin-bottom: 24px;
+  color: #5786fe;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+/* line 993, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 54px auto;
+  overflow: hidden;
+}
+/* line 1000, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li img {
+  float: left;
+  margin: 0 19px 20px 0;
+}
+/* line 1005, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li .img-overflow {
+  width: auto;
+}
+/* line 1008, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li .img-overflow .item-title {
+  margin: 0;
+  color: #5786fe;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* line 1017, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li .img-overflow .item-date {
+  display: block;
+  color: #f65701;
+  font: 400 16px / 20px 'Roboto', sans-serif;
+  font-variant: small-caps;
+  text-align: left;
+}
+/* line 1024, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li .img-overflow .item-description {
+  margin: 12px 0 21px;
+  text-align: left;
+  color: white;
+  font: 300 18px / 22px 'Roboto', sans-serif;
+}
+/* line 1030, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li .img-overflow .read-more {
+  display: block;
+  float: right;
+  color: #5786fe;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 37px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 1039, ../sass/main-style.scss */
+.content-page .main-content .reviews-content .reviews-list li .img-overflow .read-more:hover {
+  color: #f65701;
+}
+/* line 1051, ../sass/main-style.scss */
 .content-page .container {
   margin: 10px auto 42px;
   width: 100%;
   text-align: center;
 }
-/* line 989, ../sass/main-style.scss */
+/* line 1057, ../sass/main-style.scss */
 .content-page .lightBox {
   display: inline-block;
   width: 247px;
   height: auto;
   margin: 5px;
 }
-/* line 995, ../sass/main-style.scss */
+/* line 1063, ../sass/main-style.scss */
 .content-page .lightBox:first-of-type, .content-page .lightBox:nth-of-type(4n+4) {
   margin-left: 0 !important;
 }
-/* line 1000, ../sass/main-style.scss */
+/* line 1068, ../sass/main-style.scss */
 .content-page .lightBox:nth-of-type(3n+3) {
   margin-right: 0 !important;
 }
-/* line 1005, ../sass/main-style.scss */
+/* line 1073, ../sass/main-style.scss */
 .content-page .thumb {
   width: 247px;
   transition: transform .46s ease-in-out;
 }
-/* line 1009, ../sass/main-style.scss */
+/* line 1077, ../sass/main-style.scss */
 .content-page .thumb:hover {
   transform: scale(1.3);
 }
-/* line 1014, ../sass/main-style.scss */
+/* line 1082, ../sass/main-style.scss */
 .content-page .backDrop {
   background-color: #000;
   display: none;
@@ -1684,7 +1764,7 @@ footer .copyright h1 a:hover {
   width: 100%;
   z-index: 50;
 }
-/* line 1027, ../sass/main-style.scss */
+/* line 1095, ../sass/main-style.scss */
 .content-page .box {
   border-top-width: 15px;
   border-right-width: 15px;
@@ -1706,11 +1786,11 @@ footer .copyright h1 a:hover {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 1049, ../sass/main-style.scss */
+/* line 1117, ../sass/main-style.scss */
 .content-page .box img {
   margin: 0 0 -5px 0;
 }
-/* line 1054, ../sass/main-style.scss */
+/* line 1122, ../sass/main-style.scss */
 .content-page .close {
   cursor: pointer;
   float: left;
@@ -1718,23 +1798,23 @@ footer .copyright h1 a:hover {
   margin: 10px;
   position: absolute;
 }
-/* line 1062, ../sass/main-style.scss */
+/* line 1130, ../sass/main-style.scss */
 .content-page .clear {
   clear: both;
 }
-/* line 1066, ../sass/main-style.scss */
+/* line 1134, ../sass/main-style.scss */
 .content-page .page-pagination {
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
 }
-/* line 1072, ../sass/main-style.scss */
+/* line 1140, ../sass/main-style.scss */
 .content-page .page-pagination li {
   display: inline-block;
   margin: 0 3px;
 }
-/* line 1076, ../sass/main-style.scss */
+/* line 1144, ../sass/main-style.scss */
 .content-page .page-pagination li a {
   font-size: 18px;
   font-weight: 400;
@@ -1745,11 +1825,11 @@ footer .copyright h1 a:hover {
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 1083, ../sass/main-style.scss */
+/* line 1151, ../sass/main-style.scss */
 .content-page .page-pagination li a:hover {
   color: #f75701;
 }
-/* line 1087, ../sass/main-style.scss */
+/* line 1155, ../sass/main-style.scss */
 .content-page .page-pagination li a .pagination-item {
   color: #f75701;
 }
