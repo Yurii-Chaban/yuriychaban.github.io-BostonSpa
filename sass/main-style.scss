@@ -680,7 +680,6 @@ header {
 	}
 
 	#booking-form {
-		max-width: 594px;
 		width: 290px;
 		margin: 0 auto;
 		// padding: 28px 0 43px 72px;
@@ -701,6 +700,31 @@ header {
 			}
 			img {
 				float: right;
+			}
+
+			input {
+				display: block;
+			}
+			
+			.form-row-first,
+			.form-row-second,
+			.form-row-third {
+				display: block;
+
+			}
+			.name-field,
+			.email-field,
+			.phone-field {
+				display: block;
+			    width: 100%;
+			    height: 48px;
+			    border: none;
+			    text-align: center;
+			    color: black;
+			    font-size: 22px;
+			    font-weight: 300;
+			    line-height: 48px;
+			    background-color: #e0e0e0;
 			}
 			.number-hours,
 			.number-people {
@@ -739,6 +763,13 @@ header {
 					text-align: center;
 					height: 46px;
 					background-color: #e0e0e0;
+
+					}
+				@media (min-width: 768px) {
+					#number-hours,
+					#number-people {
+						width: 87px;
+					}
 				}
 				span {cursor:pointer; }
 			}
@@ -752,25 +783,6 @@ header {
 				font-size: 22px;
 				font-weight: 300;
 				line-height: 48px;
-				background-color: #e0e0e0;
-			}
-		}
-		.form-row-first {
-			h3 {
-				width: auto;
-				display: inline-block;
-				margin-top: 10px;
-				text-align: left;
-			}
-			input {
-				border: none;
-				width: 100%;
-				height: 48px;
-				text-align: center;
-				color: black;
-				font-size: 22px;
-				font-weight: 300;
-				line-height: 22px;
 				background-color: #e0e0e0;
 			}
 		}

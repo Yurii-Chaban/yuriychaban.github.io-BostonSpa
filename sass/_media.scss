@@ -114,9 +114,9 @@
     	}
 
 		#booking-form {
+		    overflow:hidden;
 			overflow: hidden;
 			box-sizing: border-box;
-			max-width: 594px;
 			width: 100% !important;
 			margin: 0 auto;
 			padding: 28px 60px 43px 72px;
@@ -128,30 +128,50 @@
 				float: right !important;
 				clear: both;
 			}
+
+			.form-row-first,
+			.form-row-second,
+			.form-row-third {
+				display: inline-block;
+				width: 30% !important;
+				margin-left: 2% !important;
+			}
 			
 			.form-row-first {
-				margin-bottom: 0 !important;
+				margin-left: 0 !important;
+			}
+			.form-row-fourth,
+			.form-row-fifth,
+			.form-row-sixth {
+				width: 32%;
+    			float: left;
+			}
+			.form-row-fifth {
+    			margin-left: 3% !important;
+			}
+			.form-row-fourth {
+				margin-left: 0 !important;
+				h3 {
+					width: 67% !important;
+				}
 			}
 
-			.form-row-second
-			.form-row-third {
-				width: 50%;
-				margin-top: 0 !important;
-			    overflow: hidden;
+			// .form-row-fifth
+			// .form-row-sixth {
+			// 	width: 30%;
+			// 	margin-top: 0 !important;
+			//     overflow: hidden;
 
-			}
-		    #number-hours,
-			#number-people {
-				width: 120px !important;
-			}
+			// }
+		    
 			.minus,
 			.plus {
 				width: 53px !important;
 			}
-			.form-row-second {
+			.form-row-fifth {
 			    float: left;
 			}
-			.form-row-third {
+			.form-row-sixth {
 				float: right;
 			}
 		}
@@ -379,6 +399,13 @@
 			display: block;
 		}
 	}
+
+#booking-form {
+	#number-hours,
+	#number-people {
+		width: 140px !important;
+	}
+}
 
 	footer {
 		background: #000 !important;
