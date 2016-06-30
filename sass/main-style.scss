@@ -120,6 +120,9 @@ body {
 	box-sizing: border-box;
 	overflow: hidden;
 }
+a {
+	text-decoration: none;
+}
 /*---------------------------------------*/
 header {
 	background: #000;
@@ -519,6 +522,60 @@ header {
         background: #000;
     }
 }
+/*--------------------------------*/
+.services-content {
+	.services-item-title {
+		float: left;
+	    display: inline-block;
+	    margin-right: 23px;
+	    color: #5786fe;
+	    font-size: 50px;
+	    font-weight: 600;
+	    line-height: 50px;
+	    text-align: left;
+	    text-transform: uppercase;
+	}
+	.services-default-list {
+		display: block;
+		clear: both;
+		overflow: hidden;
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0 auto;
+
+		li {
+			display: inline-block;
+			box-sizing: border-box;
+			overflow: hidden;
+			width: 47%;
+			margin: 0 auto 20px;
+
+			&:nth-child(even) {
+				margin-left: 3%;
+			}
+			
+			.services-img {
+				float: left;
+			}
+			.service-title {
+				clear: both;
+				float: left;
+				margin: 14px 0 0 0;
+				color: #5786fe;
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 37px;
+				text-transform: uppercase;
+
+				&:hover {
+					color: #f45601;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+/*--------------------------------*/
 /*--------------------------------*/
 .services {
 	width: 100%;
