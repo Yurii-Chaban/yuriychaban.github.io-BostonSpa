@@ -132,8 +132,11 @@
 			.form-row-first,
 			.form-row-second,
 			.form-row-third {
-				display: inline-block;
-				width: 30% !important;
+				float: left;
+				width: 32% !important;
+			}
+			.form-row-second,
+			.form-row-third {
 				margin-left: 2% !important;
 			}
 			
@@ -147,7 +150,7 @@
     			float: left;
 			}
 			.form-row-fifth {
-    			margin-left: 3% !important;
+    			margin-left: 2% !important;
 			}
 			.form-row-fourth {
 				margin-left: 0 !important;
@@ -403,9 +406,11 @@
 #booking-form {
 	#number-hours,
 	#number-people {
-		width: 140px !important;
+		width: 157px !important;
 	}
 }
+
+
 
 	footer {
 		background: #000 !important;
