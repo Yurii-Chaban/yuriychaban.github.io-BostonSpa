@@ -588,6 +588,8 @@ header {
 		margin: 0 auto;
 		text-align: center;
 
+		
+
 		li {
 			display: inline-block;
 			width: 100%;
@@ -619,6 +621,23 @@ header {
 					border-radius: 100%;
 				}
 			}
+		}
+	}
+	@media (min-width: 1024px) {
+		.services-list {
+			display: -webkit-box;
+			display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		    -webkit-justify-content: center;
+		    justify-content: center;
+		    -webkit-box-align: center;
+		    -ms-flex-align: baseline;
+		    -webkit-align-items: baseline;
+		    align-items: baseline;
+		    overflow:hidden;
 		}
 	}
 }
