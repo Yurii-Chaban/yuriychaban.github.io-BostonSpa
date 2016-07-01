@@ -44,6 +44,7 @@
 				height: auto;
 				padding: 20px 0;
 				overflow: hidden;
+				@include transition;
 				.img-container {
 					width: 181px;
 					height: auto;
@@ -55,11 +56,6 @@
 					font-size: 25px;
 					font-weight: 400;
 					line-height: 30px;
-					@include transition;
-
-					&:hover {
-						color: #ff5a00;
-					}
 
 					img {
 						display: block;
@@ -392,6 +388,7 @@
 	.services {
 		.services-list {
 			li {
+				@include transition;
 			    width: 24% !important;
 		    }
 		}
@@ -475,6 +472,7 @@
 			}
 			.services-list {
 				li {
+					@include transition;
 					a {
 						color: #fff;
 						font: 300 18px / 30px 'Roboto', sans-serif;
