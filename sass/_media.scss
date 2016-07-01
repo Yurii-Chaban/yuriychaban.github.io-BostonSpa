@@ -278,6 +278,7 @@
 		margin: 56px 39px 0 45px;
 		font-size: 22px;
 		font-weight: 400;
+		font-family: 'SFUI Display', sans-serif;
 		line-height: 33px;
 		color: #fff;
 		a {
@@ -337,6 +338,7 @@
 				a {
 					color: #fff;
 					font-size: 20px;
+					font-family: 'SFUI Display', sans-serif;
 					font-weight: 300;
 					line-height: 17px;
 					@include transition;
@@ -547,7 +549,6 @@
 		}
 		.copyright {
 			border-top: none !important;
-			background: #363636 !important;
 		}
 	}	
 	.content-page {
