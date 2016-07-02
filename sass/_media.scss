@@ -257,7 +257,7 @@
 	.desctop-phone {
 		display: inline-block !important;
 		float: left;
-		margin: 56px 0 0 60px;
+		margin: 56px 0 0 35px;
 		color: white;
 		font-size: 25px;
 		font-weight: 700;
@@ -271,7 +271,7 @@
 	.desctop-lenguage-select {
 		display: inline-block !important;
 		float: left;
-		margin: 56px 39px 0 45px;
+		margin: 56px 35px 0 40px;
 		font-size: 22px;
 		font-weight: 400;
 		font-family: 'SFUI Display', sans-serif;
@@ -357,7 +357,6 @@
 
 		.swiper-container-main {
 			width: 100% !important;
-			height: 100% !important;
 
 			.swiper-slide{
 				.slide-desc {
@@ -405,7 +404,7 @@
 #booking-form {
 	#number-hours,
 	#number-people {
-		width: 157px !important;
+		width: 154px !important;
 	}
 }
 
