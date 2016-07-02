@@ -224,7 +224,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 166, ../sass/_media.scss */
   .booking-form #booking-form .minus,
   .booking-form #booking-form .plus {
-    width: 53px !important;
+    width: 50px !important;
   }
   /* line 170, ../sass/_media.scss */
   .booking-form #booking-form .form-row-fifth {
@@ -1483,7 +1483,7 @@ input:checked + #info-mobile {
   position: relative;
   display: inline-block;
   border: none;
-  width: 158px;
+  width: 155px;
   float: left;
   color: black;
   font-size: 22px;
@@ -1499,7 +1499,7 @@ input:checked + #info-mobile {
   .booking-form #booking-form .form-row .number-hours #number-people,
   .booking-form #booking-form .form-row .number-people #number-hours,
   .booking-form #booking-form .form-row .number-people #number-people {
-    width: 87px;
+    width: 83px;
   }
 }
 /* line 798, ../sass/main-style.scss */
