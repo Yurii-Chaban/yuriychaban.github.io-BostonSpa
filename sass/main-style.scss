@@ -1051,6 +1051,33 @@ footer {
 					}
 				}
 			}
+			.page-pagination {
+				width: 100%;
+				box-sizing: border-box;
+				margin: 0 auto;
+				text-align: center;
+
+				li {
+					display: inline-block;
+					margin: 0 3px;
+
+					a {
+						font-size: 18px;
+						font-weight: 400;
+						line-height: 48px;
+						color: #5786fe;
+						@include transition;
+
+						&:hover {
+							color: #f75701;
+						}
+
+						.pagination-item {
+							color: #f75701;
+						}
+					}
+				}
+			}
 		}
 		/*--------------------------------------*/
 		.blog-more-content {
@@ -1168,6 +1195,33 @@ footer {
 						}
 					}
 
+				}
+			}
+			.page-pagination {
+				width: 100%;
+				box-sizing: border-box;
+				margin: 0 auto;
+				text-align: center;
+
+				li {
+					display: inline-block;
+					margin: 0 3px;
+
+					a {
+						font-size: 18px;
+						font-weight: 400;
+						line-height: 48px;
+						color: #5786fe;
+						@include transition;
+
+						&:hover {
+							color: #f75701;
+						}
+
+						.pagination-item {
+							color: #f75701;
+						}
+					}
 				}
 			}
 		}
