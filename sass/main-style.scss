@@ -798,7 +798,7 @@ header {
 				}
 				span {cursor:pointer; }
 			}
-			#datetimepicker {
+			.date-picker {
 				display: block;
 				width: 100%;
 				height: 48px;
@@ -811,6 +811,9 @@ header {
 				line-height: 48px;
 				background-color: #e0e0e0;
 			}
+			// .datepicker {
+			// 	display: none;
+			// }
 		}
 		.form-row-fourth {
 				h3 {

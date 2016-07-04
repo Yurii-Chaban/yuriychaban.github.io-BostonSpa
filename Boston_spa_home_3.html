@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="stylesheets/swiper.css">
 	<link rel="stylesheet" href="stylesheets/jquery-ui.css">
 	<link rel="stylesheet" href="stylesheets/main-style.css">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -301,7 +303,8 @@
 				<div class="form-row form-row-fourth">
 					<h3>Select Date</h3>
 					<img src="images/icon-calendar.png" alt="icon calendar">
-					<input id="datetimepicker" type="text" >
+					<!-- <input id="datetimepicker" type="text" > -->
+					<input type="text" class="date-picker" name="date" value="">
 				</div>
 				<div class="form-row form-row-fifth">
 					<h3>Number of Hours</h3>
@@ -432,11 +435,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.datetimepicker.full.min.js"></script>
-	<script>
-		$('#datetimepicker').datetimepicker();
-	</script>
+	
 	<script src="js/2.1.3jquery.min.js"></script>
 	<script src="js/swiper.js"></script>
 	<!-- Initialize Swiper -->
@@ -523,6 +522,15 @@
 	            }
 	        });
 	    });
+	</script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
+	<script>
+		$(function(){
+			$('*[name=date]').appendDtpicker({
+				"minuteInterval": 15
+			});
+		});
 	</script>
 </body>
 </html>
