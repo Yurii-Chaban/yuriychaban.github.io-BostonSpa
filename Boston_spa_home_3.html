@@ -301,7 +301,7 @@
 				<div class="form-row form-row-fourth">
 					<h3>Select Date</h3>
 					<img src="images/icon-calendar.png" alt="icon calendar">
-					<input class="DateFrom">
+					<input id="datetimepicker" type="text" >
 				</div>
 				<div class="form-row form-row-fifth">
 					<h3>Number of Hours</h3>
@@ -433,11 +433,9 @@
 		</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
 	<script>
-		$("input.DateFrom").datepicker({
-		    minDate: 0  
-		});
+		$('#datetimepicker').datetimepicker();
 	</script>
 	<script src="js/2.1.3jquery.min.js"></script>
 	<script src="js/swiper.js"></script>
