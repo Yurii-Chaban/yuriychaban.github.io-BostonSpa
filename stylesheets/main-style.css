@@ -531,9 +531,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     z-index: 9999;
     background: #272727;
   }
-  .desctop-menu .list-menu > li.toggle-menu:hover ~ li:nth-child(4):after {
-    background: #272727;
-  }
   .desctop-menu .list-menu > li:hover .toggle-submenu .toggle-submenu-list {
     padding: 0 0 11px 40px;
   }
