@@ -1608,7 +1608,19 @@ input:checked + #info-mobile {
   margin: 0 auto;
   text-align: center;
 }
-
+.services-content-list .content-title-second {
+  margin: 0 0 11px;
+  color: #5786fe;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.services-content-list .content-description {
+  margin: 0 0 50px;
+  text-align: left;
+  color: white;
+  font: 300 18px / 22px 'Roboto', sans-serif;
+}
 
 
 @media (min-width: 768px) {
